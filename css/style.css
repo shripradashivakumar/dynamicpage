@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Mali', cursive, sans-serif, arial, helvetica;
+}
+
+body
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#time
+{
+    font-size:6em;
+}
+h1
+{
+    margin-bottom: 1em; 
+}
+#name,#focus
+{
+    display: inline-block;
+}
+.todo
+{
+    position: absolute;
+    top:0;
+    right:0;
+    border:2px solid black;
+    padding:4px;
+    background-color: rgb(236, 189, 86);
+}
+.add-btn
+{
+    display: inline-block;
+    text-decoration: none;  
+    border:none;
+    font-size: 2em;
+    padding:5px;
+    text-align: center;
+    width:100%;
+    background-color: white;
+    margin-bottom: 4px;
+}
+.todo h3
+{
+    margin-bottom: 4px;
+    text-decoration: underline;
+    text-align: center;
+}
+.todo #UL
+{
+    list-style: none;
+}
+.list-input-text
+{
+    /*width:350px;
+    height: 50px;*/
+    margin-left: 2px;
+}
+.delete
+{
+    cursor: pointer;
+    font-size:1.5em;
+    margin-left: 2px;
+}
+.checkbox
+{
+    /*width:20px;
+    height:15px;*/
+}
