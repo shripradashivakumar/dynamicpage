@@ -35,6 +35,7 @@ function setBackgroundAndGreeting()
         //morning
         document.body.style.backgroundImage = 'url("images/sunrise.jpg")';
         greeting.textContent = "Good Morning, ";
+        document.body.style.color = "white";
     }
     else if(hour < 18)
     {
